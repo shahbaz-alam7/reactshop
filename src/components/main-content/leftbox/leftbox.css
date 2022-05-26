@@ -1,0 +1,23 @@
+.left {
+  /* background-color: blue; */
+  text-align: center;
+}
+.left div {
+  display: block;
+  margin: 15px auto;
+  width: 70%;
+  padding: 10px;
+  font-size: 20px;
+  margin: 30px auto;
+  cursor: pointer;
+  font-weight: bolder;
+  border-radius: 25px;
+}
+.active {
+  background-color: rgb(169, 250, 7);
+  border :2px solid black;
+  width: 70%;
+}
+.inActive {
+  background-color: white;
+}

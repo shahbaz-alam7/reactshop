@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.leftdiv {
+  flex: 1;
+  background-color: aqua;
+}
+.rightdiv {
+  flex: 3;
+  background-color: yellow;
+  height: 90vh;
+  display: grid;
+  /* text-align: center; */
+  grid-template-columns: auto auto auto auto;
+  overflow: scroll;
+}
+.smalldiv {
+  height: 100%;
+}
+.noItem {
+  font-size: 2rem;
+  margin: 20px 100px;
+}

@@ -1,0 +1,17 @@
+#eachItem {
+  background-color: burlywood;
+  padding: 10px;
+  margin: 10px;
+  height: 150px;
+}
+#itemName {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+#itemPrice {
+  font-weight: 900;
+  font-size: 1.7rem;
+}
+.outOfStock {
+  background-color: red !important;
+}
